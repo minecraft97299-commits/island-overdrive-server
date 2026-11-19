@@ -1,0 +1,16 @@
+{
+  "name": "island-overdrive-multiplayer-server",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Servidor WebSocket para salas privadas do Island Overdrive",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
